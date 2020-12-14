@@ -9,6 +9,7 @@ function HeroSection() {
             <video src="/videos/video-1.mp4" autoPlay loop muted />
             <h1>TRAVELLING TRIBE</h1>
             <p> ADVENTURE AWAITS</p> 
+            <p>If nature leaves you speechless and turns you into a storyteller, you have then traveled !!</p>
             <div className='hero-btns'>
                 {/* <Button className='btns'
                 buttonStyle='btn--outline'

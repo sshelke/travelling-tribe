@@ -9,7 +9,7 @@ const ContactCard = props => {
         <img src="https://via.placeholder.com/150" alt="profile" />
         <div className="user-details">
           <p>Name: {props.name}</p>
-          <p>Email: {props.email}</p>
+          <p>Email: {props.title}</p>
           <button onClick={() => setShowAge(!showAge)}>
         	Toggle Age 
         </button>
