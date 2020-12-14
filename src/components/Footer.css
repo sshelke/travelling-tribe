@@ -122,14 +122,16 @@ footer-input::placeholder{
 
 .social-logo{
     color: #fff;
-    justify-self: start;
-    margin-left: 20px;
+    justify-self: left;
+    /* margin-left: 10px; */
     cursor: pointer;
     text-decoration: none;
     font-size: 2rem;
     display: flex;
-    align-self: center;
+    align-self: auto;
     margin-bottom: 16px;
+    height: 50px;
+    width: 50px;
 }
 
 .website-rights{

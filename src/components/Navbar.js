@@ -33,7 +33,7 @@ function Navbar() {
         <nav className='navbar'>
             <div className='navbar-container'>
                 
-                <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
+                <Link to='/' className='navbar-logoTT' onClick={closeMobileMenu}>
                     {/* TRVL <i className='fas fa-route'/> */}
                     <img src={logo} alt="Logo" className='navbar-logoTT'/>
                 </Link>
@@ -50,12 +50,12 @@ function Navbar() {
                         </li>
                         <li className='nav-item'>
                         <Link to='/services' className='nav-links' onClick={closeMobileMenu}>
-                            Services
+                            About Us
                         </Link>
                         </li>
                         <li className='nav-item'>
                         <Link to='/products' className='nav-links' onClick={closeMobileMenu}>
-                            Products
+                            Contact
                         </Link>
                         </li>
                         <li className='nav-item'>

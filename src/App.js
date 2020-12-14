@@ -3,7 +3,7 @@ import './App.css';
 // import Counter from './Counter.js';
 import React from 'react';
 import "./styles.css";
-import ContactCard from './ContactCard';
+import ContactCard from './components/ContactCard';
 import Navbar from './components/Navbar';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Home from './components/pages/Home';
