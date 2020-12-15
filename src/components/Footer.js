@@ -7,7 +7,7 @@ import logo from './Logo_Floating_TT.png';
 function Footer() {
     return (
         <div className='footer-container'>
-            <section className='footer-subscription'>
+            {/* <section className='footer-subscription'>
                 <p className='footer-subscription-heading'>
                     Join the adventure newsletter to receive our best vacation deals
                 </p>
@@ -21,7 +21,7 @@ function Footer() {
 
                     </form>
                 </div>
-            </section>
+            </section> */}
             
             <div className='footer-links'>
                 <div className='footer-link-wrapper'>
@@ -66,7 +66,7 @@ function Footer() {
                             <img src={logo} alt="Logo" className='social-logo'/>
                         </Link>
                     </div>
-                    <small className='website-rights'>Travelling Tribe, India &#169;</small>
+                    <small className='website-rights'> &#169;2019 by Travelling Tribe. All Copyrights Reserved. </small>
                     <div className='social-icons'>
                         <Link className='social-icon-link facebook' to='/' targets='_blanks' aria-label='Facebook'>       
                         <i className='fab fa-facebook-f'></i>     
