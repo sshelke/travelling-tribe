@@ -8,7 +8,7 @@ import Navbar from './components/Navbar';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Home from './components/pages/Home';
 import KnowUs from './components/pages/KnowUs';
-import Products from './components/pages/Products';
+import Contact from './components/pages/Contact';
 import SignUp from './components/pages/SignUp';
 
 
@@ -21,7 +21,7 @@ function App() {
       <switch>
         <Route path='/' exact component={Home}/>
         <Route path='/knowus' component={KnowUs}/>
-        <Route path='/products' component={Products}/>
+        <Route path='/contact' component={Contact}/>
         <Route path='/signup' component={SignUp}/>
       </switch>
 

@@ -31,7 +31,8 @@ const ContactCard = props => {
     <div class="card mb-3" styles="max-width: 540px;">
         <div class="row g-0">
           <div class="col-md-4">
-             <img src={props.avatar} alt="profile" class='img-thumbnail img-fluid w-75 p-3 h-75 d-inline-block'/>
+             {/* <img src={props.avatar} alt="profile" class='img-thumbnail img-fluid w-75 p-3 h-75 d-inline-block'/> */}
+             <img src={props.avatar} alt="profile" class='img-thumbnail img-fluid '/>
            </div>
            <div class="col-md-8">
               <div class="card-body">

@@ -3,35 +3,35 @@ import CardItem from './CardItem'
 import './Cards.css'
 
 function Cards() {
-    return (
-        <div className='cards'>
-            <h1>Pick your side!</h1>
+  return (
+    <div className='cards'>
+      <h1>Pick your side!</h1>
             .<div className='cards__container'>
-                <div className='cards__wrapper'>
-                    <ul className='cards__items'>
-                        <CardItem 
-                            src="images/Tadoba.jpg"
-                            text='Explore the wild side of India'
-                            label='Wildlife'
-                            path='/services'
-                        />
-
-                        <CardItem 
-                            src="images/download.jpg"
-                            text='Travel through the Himalayan Mountains'
-                            label='Treks'
-                            path='/services'
-                        />
-                    </ul>
-                    <ul className='cards__items'>
+        <div className='cards__wrapper'>
+          <ul className='cards__items'>
             <CardItem
-              src='images/img-3.jpg'
+              src="images/home-wildlife.jpeg"
+              text='Explore the wild side of India'
+              label='Wildlife'
+              path='/services'
+            />
+
+            <CardItem
+              src="images/home3.jpg"
+              text='Travel through the Himalayan Mountains'
+              label='Treks'
+              path='/services'
+            />
+          </ul>
+          <ul className='cards__items'>
+            <CardItem
+              src='images/home-kids.jpg'
               text='Outdoor Learning'
               label='Mystery'
               path='/services'
             />
             <CardItem
-              src='images/img-4.jpg'
+              src='images/home-sheetal.jpeg'
               text='Photo Blog'
               label='Adventure'
               path='/products'
@@ -43,11 +43,11 @@ function Cards() {
               path='/sign-up'
             /> */}
           </ul>
-                </div>
-                </div>   
-
         </div>
-    )
+      </div>
+
+    </div>
+  )
 }
 
 export default Cards
