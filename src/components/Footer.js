@@ -2,11 +2,12 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { Button } from './Button'
 import './Footer.css'
+import logo from './Logo_Floating_TT.png';
 
 function Footer() {
     return (
         <div className='footer-container'>
-            <section className='footer-subscription'>
+            {/* <section className='footer-subscription'>
                 <p className='footer-subscription-heading'>
                     Join the adventure newsletter to receive our best vacation deals
                 </p>
@@ -20,33 +21,32 @@ function Footer() {
 
                     </form>
                 </div>
-            </section>
+            </section> */}
             
             <div className='footer-links'>
                 <div className='footer-link-wrapper'>
                     <div className='footer-link-items'>
                         <h2>About Us</h2>
-                        <Link to='/sign-up'>How it works</Link>
+                        {/* <Link to='/sign-up'>How it works</Link> */}
                         <Link to='/'>Testimonials</Link>
-                        <Link to='/'>Careers</Link>
-                        <Link to='/'>Investors</Link>
+                        {/* <Link to='/'>Careers</Link> */}
                         <Link to='/'>Terms of Service</Link>
                     </div>
                     <div class='footer-link-items'>
             <h2>Contact Us</h2>
             <Link to='/'>Contact</Link>
-            <Link to='/'>Support</Link>
+            {/* <Link to='/'>Support</Link> */}
             <Link to='/'>Destinations</Link>
-            <Link to='/'>Sponsorships</Link>
+            {/* <Link to='/'>Sponsorships</Link> */}
           </div>
                 </div>
                 <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
             <h2>Videos</h2>
             <Link to='/'>Submit Video</Link>
-            <Link to='/'>Ambassadors</Link>
-            <Link to='/'>Agency</Link>
-            <Link to='/'>Influencer</Link>
+            {/* <Link to='/'>Ambassadors</Link> */}
+            {/* <Link to='/'>Agency</Link> */}
+            {/* <Link to='/'>Influencer</Link> */}
           </div>
           <div class='footer-link-items'>
             <h2>Social Media</h2>
@@ -62,10 +62,11 @@ function Footer() {
                 <div className='social-media-wrap'>
                     <div className='footer-logo'>
                         <Link to='/' className='social-logo'>
-                            TRVL <i className='fab fa-typo3'/>
+                            {/* TRVL <i className='fab fa-typo3'/> */}
+                            <img src={logo} alt="Logo" className='social-logo'/>
                         </Link>
                     </div>
-                    <small className='website-rights'>TRVL c 2020</small>
+                    <small className='website-rights'> &#169;2019 by Travelling Tribe. All Copyrights Reserved. </small>
                     <div className='social-icons'>
                         <Link className='social-icon-link facebook' to='/' targets='_blanks' aria-label='Facebook'>       
                         <i className='fab fa-facebook-f'></i>     
