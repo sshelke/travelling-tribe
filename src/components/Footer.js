@@ -66,7 +66,7 @@ function Footer() {
                             <img src={logo} alt="Logo" className='social-logo'/>
                         </Link>
                     </div>
-                    <small className='website-rights'> &#169;2019 by Travelling Tribe. All Copyrights Reserved. </small>
+                    <small className='website-rights'> &#169;2021 by Travelling Tribe. All Copyrights Reserved. </small>
                     <div className='social-icons'>
                         <Link className='social-icon-link facebook' to='/' targets='_blanks' aria-label='Facebook'>       
                         <i className='fab fa-facebook-f'></i>     
