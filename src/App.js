@@ -1,4 +1,5 @@
 
+import {Component} from "react";
 import './App.css';
 
 import React from 'react';
@@ -12,6 +13,8 @@ import Contact from './components/pages/Contact';
 import SignUp from './components/pages/SignUp';
 
 
+
+// ________________________________________________________________________________________________________________
 
 function App() {
   return(
@@ -29,6 +32,9 @@ function App() {
    </>
   );
 }
+// _______________________________________________________________________________________________________________
+
+
 
 // function App() {
 
