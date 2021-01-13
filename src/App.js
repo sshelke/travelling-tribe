@@ -1,17 +1,20 @@
 
+import {Component} from "react";
 import './App.css';
-// import Counter from './Counter.js';
+
 import React from 'react';
 import "./styles.css";
-import ContactCard from './ContactCard';
+
 import Navbar from './components/Navbar';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Home from './components/pages/Home';
-import Services from './components/pages/Services';
-import Products from './components/pages/Products';
+import KnowUs from './components/pages/KnowUs';
+import Contact from './components/pages/Contact';
 import SignUp from './components/pages/SignUp';
 
 
+
+// ________________________________________________________________________________________________________________
 
 function App() {
   return(
@@ -20,8 +23,8 @@ function App() {
       <Navbar></Navbar>
       <switch>
         <Route path='/' exact component={Home}/>
-        <Route path='/services' component={Services}/>
-        <Route path='/products' component={Products}/>
+        <Route path='/knowus' component={KnowUs}/>
+        <Route path='/contact' component={Contact}/>
         <Route path='/signup' component={SignUp}/>
       </switch>
 
@@ -29,6 +32,9 @@ function App() {
    </>
   );
 }
+// _______________________________________________________________________________________________________________
+
+
 
 // function App() {
 

@@ -29,11 +29,11 @@ function Navbar() {
    
 
     return (
-        <>
-        <nav className='navbar'>
+        
+        <nav className="navbar navbar-expand-lg">
             <div className='navbar-container'>
                 
-                <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
+                <Link to='/' className='navbar-logoTT' onClick={closeMobileMenu}>
                     {/* TRVL <i className='fas fa-route'/> */}
                     <img src={logo} alt="Logo" className='navbar-logoTT'/>
                 </Link>
@@ -49,29 +49,59 @@ function Navbar() {
                         </Link>
                         </li>
                         <li className='nav-item'>
-                        <Link to='/services' className='nav-links' onClick={closeMobileMenu}>
-                            Services
+                        <Link to='/knowus' className='nav-links' onClick={closeMobileMenu}>
+                            About Us
                         </Link>
                         </li>
                         <li className='nav-item'>
-                        <Link to='/products' className='nav-links' onClick={closeMobileMenu}>
-                            Products
+                        <Link to='/contact' className='nav-links' onClick={closeMobileMenu}>
+                            Contact
                         </Link>
                         </li>
-                        <li className='nav-item'>
+                        {/* <li className='nav-item'>
                         <Link to='/sign-up' className='nav-links-mobile' onClick={closeMobileMenu}>
                             Sign Up
                         </Link>
-                    </li>
-                    
-                  
-                  
+                    </li>                 */}
                 </ul>
-                {button &&<Button buttonStyle='btn--outline'> SIGN UP</Button>}
+                {/* {button &&<Button buttonStyle='btn--outline'> SIGN UP</Button>} */}
             </div>
         </nav>
-        </>
+
+
+  
+
+
     );
 }
 
 export default Navbar
+
+
+{/* <nav class="navbar navbar-expand-lg navbar-light bg-light">
+<div class="container-fluid">
+    <a class="navbar-brand" href="#">
+        <img src={logo} alt="" width="75"/>
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0 navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/knowus">Know Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/products">Contact</a>
+        </li>
+      </ul>
+        
+    </div>
+</div>
+    
+
+</nav> */}

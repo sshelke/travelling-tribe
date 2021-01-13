@@ -1,0 +1,25 @@
+/* .intro-container{
+    background-color: #fff;
+    height: 100vh;
+   
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px ggba(0, 0, 0, 0.2);
+    object-fit: contain;
+}
+
+.cards {
+    padding: 4rem;
+    background: #fff;
+  }
+  
+  .cards__container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    max-width: 1120px;
+    width: 90%;
+    margin: 0 auto;
+  } */
